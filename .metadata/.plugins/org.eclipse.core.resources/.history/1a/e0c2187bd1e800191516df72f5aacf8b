@@ -1,0 +1,5 @@
+package com.spoors.bean;
+
+public class Person {
+
+}

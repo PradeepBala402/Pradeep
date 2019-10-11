@@ -1,0 +1,7 @@
+
+lbl.page=Add New Employee
+lbl.firstName=First Name
+lbl.lastName=Last Name
+lbl.email=Email Iderror.id=id can not be blank
+error.firstName=First Name can not be blank
+error.lastName=Last Name can not be blank

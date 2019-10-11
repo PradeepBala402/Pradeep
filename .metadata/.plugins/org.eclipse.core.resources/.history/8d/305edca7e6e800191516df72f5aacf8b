@@ -1,0 +1,13 @@
+package com.spoors.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.spoors.service.PersonService;
+
+@Controller
+public class PersonUpdateController {
+	@Autowired
+	PersonService service;
+
+}

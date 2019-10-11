@@ -1,0 +1,21 @@
+package com.spoors.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.SessionAttributes;
+
+@Controller
+@SessionAttributes
+public class BankController {
+	  @RequestMapping(value = "/addBank", method = RequestMethod.POST)  
+	    public String addContact(@ModelAttribute("bank") Bank bank, BindingResult result) {  
+	        //write the code here to add contact  
+	        return "redirect:bank.html";  
+	    }  
+	      
+	    @RequestMapping("/bank")  
+	    public String showContacts(Model m) {  
+	        m.addAttribute("command", new Contact());  
+	        return "contact";  
+	    }  
+
+}

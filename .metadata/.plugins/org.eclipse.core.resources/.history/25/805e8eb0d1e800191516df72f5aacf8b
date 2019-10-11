@@ -1,0 +1,8 @@
+package com.spoors.bean;
+
+public class Person {
+	private Long id;
+	private String firstName;
+	private String lastName;
+
+}

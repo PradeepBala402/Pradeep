@@ -1,0 +1,3 @@
+error.id=id can not be blank
+error.firstName=First Name can not be blank
+error.lastName=Last Name can not be blank

@@ -1,0 +1,1 @@
+<a href="init">Log in</a>

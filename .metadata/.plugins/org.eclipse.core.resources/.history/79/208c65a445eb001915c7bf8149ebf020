@@ -1,0 +1,14 @@
+package com.spoors.bean;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+
+public class User {
+	@NotEmpty
+	@Email
+	private String Email;
+	@NotEmpty(message="please enter your password")
+	@Size(min=2,maz=8 ,messages="your pasword must between 6 and 15 characters")
+	private String password;
+
+}

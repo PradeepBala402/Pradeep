@@ -1,0 +1,3 @@
+<h1><center style='color:red'>SpringMvc</center></h1>
+<a href="mvc/createPerson">Add Person details</a>
+<a href="mvc/listPersons">Show details</a>

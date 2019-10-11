@@ -1,0 +1,94 @@
+package com.spoors.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.spoors.model.User;
+
+public class UserDaoImpl implements UserDao {
+@Autowired
+JdbcTemplate jt;
+
+	public void setJt(JdbcTemplate jt) {
+	this.jt = jt;
+}
+
+	@Override
+	public void saveUser(User user) {
+		 
+		String sql="insert into user values(?,?,?,?,?)";
+		jt.update(sql, new Object[]
+		        {user.getEname(),user.getDesg(),user.getDept(),user.getPhoneNumber(),user.getEaddrs() });
+		    }
+	
+
+	@Override
+	public User getUserById(int eid) {
+		 String sql="select * from  user where eid=?";
+		 User user =  (User) jt.queryForObject(sql, new Object[]
+			        { eid }, new RowMapper()
+			        {
+			            @Override
+			            public User mapRow(ResultSet rs, int rowNum) throws SQLException
+			            {
+			                User user = new User();
+			                user.setEname(rs.getString(1));
+			                user.setDesg(rs.getString(2));
+			                user.setDept(rs.getString(3));
+			                user.setPhoneNumber(rs.getLong(4));
+			                user.setEaddrs(rs.getString(5));
+			                return user;
+			            }
+			        });
+			        return user;
+	}
+
+	@Override
+	public void updateUser(User user) {
+		 
+		 String sql = "update user set  ename=?, desg=?,dept=?,phoneNumber=?,eaddrs=? where eid=?";
+		 jt.update(sql, new Object[]
+			        { user.getEname(),user.getDesg(),user.getDept(),user.getPhoneNumber(),user.getEaddrs() });
+	}
+
+	@Override
+	public void deleteUser(int eid) {
+		String sql="delete from user where eid=?";
+		 jt.update(sql, new Object[]
+			        { eid });
+
+	}
+
+	@Override
+	public List<User> getAllUsers() {
+		String sql = "select * from user";
+
+        List<User> employeeList =jt.query(sql, new ResultSetExtractor<List<User>>()
+        {
+            @Override
+            public List<Employee> extractData(ResultSet rs) throws SQLException, DataAccessException
+            {
+                List<Employee> list = new ArrayList<Employee>();
+                while (rs.next())
+                {
+                    Employee employee = new Employee();
+                    employee.setId(rs.getInt(1));
+                    employee.setAge(rs.getInt(2));
+                    employee.setDept(rs.getString(3));
+                    employee.setName(rs.getString(4));
+                    list.add(employee);
+                }
+                return list;
+            }
+
+        });
+        return employeeList;
+		return null;
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.spoors.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class UserController {
+	@RequestMapping(value="/login",method=RequestMethod.Post)
+	public String showLogin(Model model)
+
+}

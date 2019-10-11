@@ -1,0 +1,9 @@
+package com.spoors.model;
+Dat
+public class Bank {
+	private String firstName;
+	private String lastName;
+	private String email;
+	private long phoneNumber;
+
+}

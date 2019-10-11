@@ -1,0 +1,30 @@
+package com.spoors.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spoors.dao.UserDao;
+
+@Controller
+@RequestMapping("/")
+public class HomeController {
+	@Autowired
+	UserDao dao;
+	 @RequestMapping(value = "/employee",method=RequestMethod.POST)
+	    public ModelAndView saveEmployee(@ModelAttribute("employee") Employee employee)
+	    {
+	        try
+	        {
+	            if(employeeDAO.getEmployeeById(employee.getId()) != null);
+	            employeeDAO.updateEmployee(employee);
+	        }
+	        catch(EmptyResultDataAccessException e)
+	        {
+	            System.out.println("inside catch");
+	            employeeDAO.saveEmployee(employee);
+	        }
+	        return new ModelAndView("redirect:/employees");
+	    }
+
+}

@@ -1,0 +1,18 @@
+package com.spoors.config;
+
+import javax.sql.DataSource;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "com.spoors.dao")
+public class PersistenceConfig {
+	public DataSource createDataSource() {
+		BasicDataSource bds=new BasicDataSource();
+		return bds;
+		
+	}
+
+}

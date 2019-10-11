@@ -1,0 +1,11 @@
+package com.spoors.controller;
+
+ 
+
+@Controller
+public class HomeController {
+	
+	 
+	
+	
+}

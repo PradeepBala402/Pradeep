@@ -1,0 +1,3 @@
+error.firstName=First Name can not be blank
+error.lastName=Last Name can not be blank
+error.email=Email Id can not be blank

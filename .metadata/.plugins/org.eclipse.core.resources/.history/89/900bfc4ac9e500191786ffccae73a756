@@ -1,0 +1,6 @@
+package com.spoors.dao;
+
+public interface UserDao {
+	
+
+}

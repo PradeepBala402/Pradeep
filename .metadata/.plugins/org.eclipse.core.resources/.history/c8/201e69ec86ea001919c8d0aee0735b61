@@ -1,0 +1,50 @@
+package com.spoors.validator;
+
+import org.springframework.stereotype.Component;
+@Component
+public class PersonValidator  {
+	 boolean error = false;
+	 Person person;
+     
+	    System.out.println(person); //Verifying if information is same as input by user
+	     
+	    if(employeeVO.getFirstName().isEmpty()){
+	        result.rejectValue("firstName", "error.firstName");
+	        error = true;
+	    }
+	     
+	    if(employeeVO.getLastName().isEmpty()){
+	        result.rejectValue("lastName", "error.lastName");
+	        error = true;
+	    }
+	     
+	    if(employeeVO.getEmail().isEmpty()){
+	        result.rejectValue("email", "error.email");
+	        error = true;
+	    }
+	     
+	    if(error) {
+	        return "addEmployee";
+	    }
+
+	/*
+	 * @Override public boolean supports(Class<?> clazz) { // TODO Auto-generated
+	 * method stub return Person.class.isAssignableFrom(clazz); }
+	 * 
+	 * @Override public void validate(Object target, Errors errors) { // TODO
+	 * Auto-generated method stub Person person=(Person) target; Long
+	 * id=person.getId(); String firstName=person.getFirstName(); String
+	 * lastName=person.getLastName();
+	 * ValidationUtils.rejectIfEmptyOrWhitespace(errors,"id","person.id.empty");
+	 * ValidationUtils.rejectIfEmptyOrWhitespace(errors, "firstName",
+	 * "person.firstName.empty"); ValidationUtils.rejectIfEmptyOrWhitespace(errors,
+	 * "lastName", "person.lastName.empty"); if(id.equals(1)) {
+	 * errors.rejectValue("id","person.id.invalid"); }
+	 * if(firstName.equals("pradeep")) { errors.rejectValue("firstName",
+	 * "person.firstName.invalid"); } if(lastName.equals("pradeep")) {
+	 * errors.rejectValue(lastName, "person.lastName.invalid"); }
+	 * 
+	 * }
+	 */
+
+}
