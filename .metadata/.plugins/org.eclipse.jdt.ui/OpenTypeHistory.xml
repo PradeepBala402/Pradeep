@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=MVC-Crud/src\/main\/java&lt;com.spoors.dao{PersonDao.java[PersonDao" modifiers="513" timestamp="1570607529906"/>
-    <typeInfo handle="=MVC-Crud/src\/main\/java&lt;com.spoors.service{PersonService.java[PersonService" modifiers="513" timestamp="1570438058954"/>
-    <typeInfo handle="=MVC-Crud/\/usr\/lib\/jvm\/java-9-openjdk-amd64\/lib\/jrt-fs.jar`java.management&lt;javax.management(PersistentMBean.class[PersistentMBean" modifiers="1537" timestamp="1532817037000"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

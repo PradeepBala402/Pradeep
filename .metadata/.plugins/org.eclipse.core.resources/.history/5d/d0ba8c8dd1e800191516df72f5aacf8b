@@ -1,7 +1,0 @@
-package com.spoors.bean;
-
-public class Person {
-	private Long id;
-	
-
-}

@@ -1,5 +1,0 @@
-package com.spoors.config;
-
-public class WebMvcConfig {
-
-}

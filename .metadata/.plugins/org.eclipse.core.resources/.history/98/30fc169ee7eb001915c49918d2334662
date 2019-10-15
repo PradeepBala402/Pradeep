@@ -1,5 +1,0 @@
-
-error.email=You entered email
-error.name=Name can not be blank
-error.pass=password can not be blank
-error.addrs=address cannot be balank

@@ -1,2 +1,0 @@
-<%-- <jsp:forward page="home.htm"/> --%>
-<a href="createPerson">ADd Person details</a>
