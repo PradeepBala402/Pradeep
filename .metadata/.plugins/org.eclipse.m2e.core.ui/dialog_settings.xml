@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/spoors/Downloads/ExcelZipPrograms/Spring-Examples-master/SpringFileUploadToDB"/>
+			<item value="/home/spoors/Documents/pradeepSpoors/MVC-Crud"/>
+			<item value="/home/spoors/Documents/pradeepSpoors/AjaxExample"/>
 			<item value="/home/spoors/Documents/pradeepSpoors/FileImport"/>
 			<item value="/home/spoors/Documents/pradeepSpoors/Validations/src/main/java/com/spoors/controller/EmployeeController.java"/>
 			<item value="/home/spoors/Documents/pradeepSpoors/Validations"/>
@@ -31,30 +34,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="spoors123.Mvc_File"/>
-			<item value="spoors123.ValidationsProj"/>
-			<item value="com.spoors.service"/>
-			<item value="com.spoors.controller"/>
-			<item value="spoors123.MVC"/>
-			<item value="spoors123.qwerty"/>
-			<item value="spoors.fdght"/>
-			<item value="spoors.Mvc_crud"/>
+			<item value="spoors.ExcelUploadAndDownloadZip"/>
 		</list>
 		<list key="groupId">
-			<item value="spoors123"/>
 			<item value="spoors"/>
 		</list>
 		<list key="artifactId">
-			<item value="Mvc-File"/>
-			<item value="Mvc_tiles"/>
-			<item value="ValidationsProj"/>
-			<item value="FileImport"/>
-			<item value="MVC-Crud"/>
-			<item value="MVC"/>
-			<item value="qwerty"/>
-			<item value="fdght"/>
-			<item value="Mvc-crud"/>
-			<item value="Mvc_crud"/>
+			<item value="ExcelUploadAndDownloadZip"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -93,6 +79,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/spoors/Desktop/EFFORT-Web"/>
+			<item value="/home/spoors/Downloads/parking-heatmap-master"/>
+			<item value="/home/spoors/Downloads/ExcelZipPrograms/Spring-Examples-master/SpringFileUploadToDB"/>
 			<item value="home/spoors/Documents/pradeepSpoors/Validations"/>
 		</list>
 		<list key="projectNameTemplate">

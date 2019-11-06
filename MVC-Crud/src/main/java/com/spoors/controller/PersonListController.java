@@ -17,3 +17,4 @@ public class PersonListController {
 		return "personList";
 	}
 }
+

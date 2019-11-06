@@ -103,16 +103,35 @@
 		<item value="org.springsource.sts:3.9.9.201906181741-RELEASE"/>
 	</list>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
 		</list>
 	</section>
 	<section name="CleanDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="270"/>
 		<item key="DIALOG_Y_ORIGIN" value="100"/>
 		<item key="DIALOG_WIDTH" value="490"/>
-		<item key="DIALOG_HEIGHT" value="410"/>
+		<item key="DIALOG_HEIGHT" value="485"/>
 		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="BUILD_NOW" value="true"/>
+		<item key="BUILD_ALL" value="true"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/setting/Sqls.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/TerritoryController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/webapp/WEB-INF/views/contents/freq.jsp&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/CustomerController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/CustomerConfigActionController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/CustomerConfigController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/webapp/WEB-INF/views/contents/addtionalCustomerFields.jsp&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/SettingController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/webapp/WEB-INF/views/contents/appLabelsConfigurationLand.jsp&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/FormSpecsController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/FormSpecsActionController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/WorkSpecActionController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/webapp/WEB-INF/views/contents/workSpecFormSpecMapping.jsp&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/WorkSpecController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/WebController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/WebExtendedController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/ConfigureController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/EntitySpecActionController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/effort/src/main/java/com/ayansys/effort/controller/EntitySpecController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="501"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="214"/>
+			<item key="DIALOG_Y_ORIGIN" value="134"/>
+			<item key="DIALOG_FONT_NAME" value="1|Noto Sans|9.0|0|GTK|1|"/>
+		</section>
 	</section>
 </section>

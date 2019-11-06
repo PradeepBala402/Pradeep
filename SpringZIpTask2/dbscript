@@ -1,0 +1,8 @@
+ Field  | Type         | Null | Key | Default | Extra          |
++--------+--------------+------+-----+---------+----------------+
+| id     | int(11)      | NO   | PRI | NULL    | auto_increment |
+| name   | varchar(20)  | NO   |     | NULL    |                |
+| gender | varchar(10)  | NO   |     | NULL    |                |
+| addrs  | varchar(20)  | NO   |     | NULL    |                |
+| imgLoc | varchar(200) | YES  |     | NULL    |                |
++--------+--------------+------+-----+---------+----------------+

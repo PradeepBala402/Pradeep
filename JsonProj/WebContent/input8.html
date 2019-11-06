@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<h2><b>For Loop</b></h2>
+<p id="demo"></p>
+<script type="text/javascript">
+var i,myObj,x="";
+myObj={"name":"Pradeep","addrs":"Nlg","Courses":["java","adv.java","spring"]};
+for(i=0;i<myObj.Courses.length;i++){
+	x+=myObj.Courses[i]+"<br>";
+}
+document.getElementById("demo").innerHTML=x;
+</script>
+</html>
